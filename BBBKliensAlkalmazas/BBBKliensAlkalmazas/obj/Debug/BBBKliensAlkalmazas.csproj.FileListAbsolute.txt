@@ -1,0 +1,10 @@
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\BBBKliensAlkalmazas.exe.config
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\BBBKliensAlkalmazas.exe
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\BBBKliensAlkalmazas.pdb
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.AssemblyReference.cache
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.SuggestedBindingRedirects.cache
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Properties.Resources.resources
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.GenerateResource.cache
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.CoreCompileInputs.cache
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.exe
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.pdb
