@@ -34,3 +34,4 @@ C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKlie
 C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.exe
 C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.pdb
 C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Form1.resources
+C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Search.resources
