@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.labelConnectivityStatus = new System.Windows.Forms.Label();
             this.dataGridViewOrders = new System.Windows.Forms.DataGridView();
@@ -70,7 +70,7 @@
             // buttonSearch
             // 
             this.buttonSearch.Location = new System.Drawing.Point(9, 8);
-            this.buttonSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSearch.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(125, 27);
             this.buttonSearch.TabIndex = 2;
@@ -104,7 +104,7 @@
             this.emailDataGridViewTextBoxColumn});
             this.dataGridViewOrders.DataSource = this.orderBindingSource2;
             this.dataGridViewOrders.Location = new System.Drawing.Point(9, 40);
-            this.dataGridViewOrders.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewOrders.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewOrders.Name = "dataGridViewOrders";
             this.dataGridViewOrders.ReadOnly = true;
             this.dataGridViewOrders.RowHeadersVisible = false;
@@ -145,9 +145,9 @@
             // priceDataGridViewTextBoxColumn
             // 
             this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
-            dataGridViewCellStyle1.Format = "C0";
-            dataGridViewCellStyle1.NullValue = null;
-            this.priceDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Format = "C0";
+            dataGridViewCellStyle3.NullValue = null;
+            this.priceDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle3;
             this.priceDataGridViewTextBoxColumn.HeaderText = "Price";
             this.priceDataGridViewTextBoxColumn.MinimumWidth = 9;
             this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
@@ -199,7 +199,7 @@
             this.priceDataGridViewTextBoxColumn1});
             this.dataGridViewOrderItems.DataSource = this.itemBindingSource;
             this.dataGridViewOrderItems.Location = new System.Drawing.Point(299, 377);
-            this.dataGridViewOrderItems.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewOrderItems.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewOrderItems.Name = "dataGridViewOrderItems";
             this.dataGridViewOrderItems.ReadOnly = true;
             this.dataGridViewOrderItems.RowHeadersVisible = false;
@@ -229,9 +229,9 @@
             // priceDataGridViewTextBoxColumn1
             // 
             this.priceDataGridViewTextBoxColumn1.DataPropertyName = "Price";
-            dataGridViewCellStyle2.Format = "C0";
-            dataGridViewCellStyle2.NullValue = null;
-            this.priceDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Format = "C0";
+            dataGridViewCellStyle4.NullValue = null;
+            this.priceDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle4;
             this.priceDataGridViewTextBoxColumn1.HeaderText = "Price";
             this.priceDataGridViewTextBoxColumn1.MinimumWidth = 9;
             this.priceDataGridViewTextBoxColumn1.Name = "priceDataGridViewTextBoxColumn1";
@@ -256,7 +256,7 @@
             // buttonUpdate
             // 
             this.buttonUpdate.Location = new System.Drawing.Point(215, 8);
-            this.buttonUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(149, 27);
             this.buttonUpdate.TabIndex = 8;
@@ -276,7 +276,7 @@
             this.panel1.Controls.Add(this.comboBoxMStatus);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(13, 377);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(281, 239);
             this.panel1.TabIndex = 9;
@@ -284,7 +284,7 @@
             // textBoxPrice
             // 
             this.textBoxPrice.Location = new System.Drawing.Point(6, 73);
-            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.ReadOnly = true;
             this.textBoxPrice.Size = new System.Drawing.Size(270, 22);
@@ -303,7 +303,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(7, 211);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 26);
             this.button1.TabIndex = 6;
@@ -314,7 +314,7 @@
             // 
             this.comboBoxMStatus.FormattingEnabled = true;
             this.comboBoxMStatus.Location = new System.Drawing.Point(6, 28);
-            this.comboBoxMStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxMStatus.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxMStatus.Name = "comboBoxMStatus";
             this.comboBoxMStatus.Size = new System.Drawing.Size(270, 24);
             this.comboBoxMStatus.TabIndex = 3;
@@ -333,7 +333,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(138, 13);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(70, 20);
             this.checkBox1.TabIndex = 10;
@@ -363,7 +363,7 @@
             this.Controls.Add(this.labelConnectivityStatus);
             this.Controls.Add(this.buttonSearch);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BBB Rendelések";

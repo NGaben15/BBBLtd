@@ -35,3 +35,45 @@ C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKlie
 C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.pdb
 C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Form1.resources
 C:\Users\szker\Me\School\4. Szemeszter\Rendszerfejlesztés\kliens\github\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Search.resources
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\nunit.engine.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\nunit.engine.api.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\nunit.engine.core.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\BBBKliensAlkalmazas.exe.config
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\BBBKliensAlkalmazas.exe
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\BBBKliensAlkalmazas.pdb
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Castle.Core.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Hotcakes.Commerce.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Hotcakes.Commerce.Dnn.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Hotcakes.CommerceDTO.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Hotcakes.Modules.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Hotcakes.Payment.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Hotcakes.Web.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Moq.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\nunit.framework.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Web.Helpers.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Web.Mvc.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Web.Razor.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Web.WebPages.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Castle.Core.xml
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\Moq.xml
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\nunit.framework.xml
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.AssemblyReference.cache
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.SuggestedBindingRedirects.cache
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Form1.resources
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Properties.Resources.resources
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.Search.resources
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.GenerateResource.cache
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.CoreCompileInputs.cache
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.csproj.CopyComplete
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.exe
+C:\Users\nacsa\source\repos\BBBLtdúj\BBBKliensAlkalmazas\BBBKliensAlkalmazas\obj\Debug\BBBKliensAlkalmazas.pdb
