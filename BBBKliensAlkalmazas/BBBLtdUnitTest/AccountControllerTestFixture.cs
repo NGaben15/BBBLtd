@@ -16,7 +16,7 @@ namespace BBBLtdUnitTest
         TestCase("irf.uni-corvinus.hu", false),
         TestCase("irf@uni-corvinus.hu", true)
  ]
-        public void TestValidateId(string email, bool expectedResult)
+        public void TestValidateEmail(string email, bool expectedResult)
         {
             // Arrange
             var accountController = new AccountController();
@@ -33,7 +33,7 @@ namespace BBBLtdUnitTest
        TestCase("ASDFGH445", false),
        TestCase("hgjekos1234", false),
        TestCase("Ags12", false),
-       TestCase("AGBadfr123", true),
+       TestCase("AAAbbb2233", true)
 ]
         public void TestValidatePassword(string password, bool expectedResult)
         {
