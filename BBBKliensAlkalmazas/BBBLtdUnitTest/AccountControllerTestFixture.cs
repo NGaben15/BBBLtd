@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
+using UnitTestExample.Controllers;
 
 namespace BBBLtdUnitTest
 {
@@ -18,7 +19,7 @@ namespace BBBLtdUnitTest
         public void TestValidateId(string email, bool expectedResult)
         {
             // Arrange
-            var accountController = new ();
+            var accountController = new AccountController();
 
             // Act
             var actualResult = accountController.ValidateEmail(email);

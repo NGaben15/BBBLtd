@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnitTestExample.Entities;
 
-namespace BBBKliensAlkalmazas.Abstractions
+namespace UnitTestExample.Abstractions
 {
-    internal class IAccountManager
+    public interface IAccountManager
     {
+        BindingList<Account> Accounts { get; }
+
+        Account CreateAccount(Account account);
     }
 }
