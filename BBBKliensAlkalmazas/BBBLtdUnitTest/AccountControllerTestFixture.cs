@@ -27,5 +27,28 @@ namespace BBBLtdUnitTest
             // Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+
+        [Test,
+       TestCase("ABcdefghkl", false),
+       TestCase("ASDFGH445", false),
+       TestCase("hgjekos1234", false),
+       TestCase("Ags12", false),
+       TestCase("AGBadfr123", true),
+]
+        public void TestValidatePassword(string password, bool expectedResult)
+        {
+            // Arrange
+            var accountController = new AccountController();
+
+            // Act
+            var actualResult = accountController.ValidateEmail(password);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+
+
+
     }
 }
