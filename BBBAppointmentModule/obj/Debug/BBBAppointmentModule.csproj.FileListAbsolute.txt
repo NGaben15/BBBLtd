@@ -1,0 +1,10 @@
+C:\dnn\bin\BBBAppointmentModule.dll.config
+C:\dnn\bin\BBBAppointmentModule.dll
+C:\dnn\bin\BBBAppointmentModule.pdb
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\BBBAppointmentModule.csproj.AssemblyReference.cache
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\Bbb.Appointment.BBBAppointmentModule.App_LocalResources.Settings.resources
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\BBBAppointmentModule.csproj.GenerateResource.cache
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\BBBAppointmentModule.csproj.CoreCompileInputs.cache
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\BBBAppointmentModule.csproj.CopyComplete
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\BBBAppointmentModule.dll
+C:\dnn\DesktopModules\bbb-appointment-module\BBBAppointmentModule\obj\Debug\BBBAppointmentModule.pdb

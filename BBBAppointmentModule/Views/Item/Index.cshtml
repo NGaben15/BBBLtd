@@ -1,0 +1,51 @@
+﻿@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage<IEnumerable<Bbb.Appointment.BBBAppointmentModule.Models.Item>>
+
+@using System.Text.RegularExpressions
+@using DotNetNuke.Web.Mvc.Helpers
+
+
+<head>
+    <link rel="stylesheet" href="styles/calendar.css" type="text/css" />
+
+</head>
+
+
+<script>
+
+    function myfunction() { alert("Miau"); }
+
+</script>
+<style src="styles/calendar.css"></style>
+
+
+<h1>Header</h1>
+<div class="calendar">
+    <div class="calendar-header">
+        <span class="month-picker" id="month-picker">April</span>
+        <div class="year-picker">
+            <span class="year-change" id="prev-year">
+                <pre><</pre>
+            </span>
+            <span id="year">2022</span>
+            <span class="year-change" id="next-year">
+                <pre>></pre>
+            </span>
+        </div>
+    </div>
+    <div class="calendar-body">
+        <div class="calendar-week-day">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+        <div class="calendar-days"></div>
+    </div>
+
+    <div class="month-list"></div>
+</div>
+<script src="scripts/calendar.js"></script>
+
