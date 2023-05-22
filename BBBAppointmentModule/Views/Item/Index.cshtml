@@ -11,41 +11,187 @@
 
 
 <script>
+    selectedMonth = 0;
+    today = new Date();
 
-    function myfunction() { alert("Miau"); }
+    selectedTimeButton = 0;
+
+    window.onload = function () {
+        createCalendar();
+        createTimeButtons();
+        selectedTimeButton.classList.add("selected-time");
+    }
+
+    function jumpRight() {
+        console.log("Jump Right");
+        selectedMonth.setMonth(selectedMonth.getMonth() + 1);
+        calendar.innerHTML = generateCalendarHTML(selectedMonth);
+    }
+    function jumpLeft() {
+        console.log("Jump Left");
+        selectedMonth.setMonth(selectedMonth.getMonth() - 1);
+        calendar.innerHTML = generateCalendarHTML(selectedMonth);
+    }
+    function formatDate(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    }
+    function generateCalendarHTML(date) {
+        console.log("Generate calendar")
+        const currentYear = date.getFullYear();
+        const currentMonth = date.getMonth();
+        const firstDay = new Date(currentYear, currentMonth, 1);
+        const lastDay = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const startDay = (firstDay.getDay() + 6) % 7;
+        let calendarHTML = '';
+
+        calendarHTML += `<div class="calendar-header">
+                    <button onclick="jumpLeft()"><</button>
+                    ${date.toLocaleString('default', { month: 'long', year: 'numeric' })}
+                    <button onclick="jumpRight()">></button>
+                    </div>`;
+        calendarHTML += '<div class="calendar-days">';
+        calendarHTML += '<div class="day">H</div>';
+        calendarHTML += '<div class="day">K</div>';
+        calendarHTML += '<div class="day">Sz</div>';
+        calendarHTML += '<div class="day">Cs</div>';
+        calendarHTML += '<div class="day">P</div>';
+        calendarHTML += '<div class="day">Sz</div>';
+        calendarHTML += '<div class="day">V</div>';
+
+        calendarHTML += '</div>';
+
+        calendarHTML += '<div class="calendar-dates">';
+        for (let i = 0; i < startDay; i++) {
+            calendarHTML += '<div class="date disabled"></div>';
+        }
+
+        for (let i = 1; i <= lastDay; i++) {
+            const currentDate = new Date(currentYear, currentMonth, i);
+            const formattedDate = formatDate(currentDate);
+            if (currentDate < today) {
+                calendarHTML += `<div class="date past" data-date="${formattedDate}">${i}</div>`;
+            } else {
+                calendarHTML += `<div class="date" data-date="${formattedDate}">${i}</div>`;
+            }
+        }
+
+        calendarHTML += '</div>';
+
+        return calendarHTML;
+    }
+    function createCalendar() {
+        console.log("Create calendar");
+        // Get the calendar element
+        const calendar = document.getElementById('calendar');
+
+        // Event listener for date selection
+        calendar.addEventListener('click', function (event) {
+
+            // Remove previously selected
+            const selected = document.getElementsByClassName("date selected-day")
+            while (selected.length) {
+                selected[0].classList.remove("selected-day");
+            }
+
+            const target = event.target;
+            if (target.classList.contains('date')) {
+                const selectedDate = target.getAttribute('data-date');
+                targetDate = new Date(selectedDate)
+                if (targetDate => today) {
+                    target.classList.add("selected-day");
+                }
+            }
+        });
+
+        // Initialize the calendar with the current month
+        selectedMonth = new Date();
+
+        calendar.innerHTML = generateCalendarHTML(selectedMonth);
+    }
+
+    function clickedButton(event) {
+        const clickedButton = document.getElementById(event.target.id);
+        clickedButton.classList.add("selected-time");
+
+        selectedTimeButton = clickedButton;
+    }
+
+    function createTimeButtons() {
+        console.log("Creating time buttons");
+        var timeCont = document.getElementById("time-picker");
+        var hour = 8;
+
+        for (var i = 0; i <= 16; i++) {
+            var newElement = document.createElement("button");
+            newElement.className = "time-picker-button";
+            newElement.id = "tpb-" + i.toString();
+            newElement.textContent = "s";
+            newElement.addEventListener('click', function (event) {
+                // Delete previously selected time
+                const selected = document.getElementsByClassName("time-picker-button selected-time")
+                while (selected.length) {
+                    selected[0].classList.remove("selected-time");
+                }
+
+                element = document.getElementById(event.target.id);
+                element.classList.add("selected-time");
+            })
+            if (i % 2 == 0) {
+                newElement.textContent = hour.toString() + ":00";
+            } else {
+                newElement.textContent = hour.toString() + ":30";
+                hour++;
+            }
+            timeCont.appendChild(newElement)
+        }
+    }
+
 
 </script>
-<style src="styles/calendar.css"></style>
 
+</script>
 
-<h1>Header</h1>
-<div class="calendar">
-    <div class="calendar-header">
-        <span class="month-picker" id="month-picker">April</span>
-        <div class="year-picker">
-            <span class="year-change" id="prev-year">
-                <pre><</pre>
-            </span>
-            <span id="year">2022</span>
-            <span class="year-change" id="next-year">
-                <pre>></pre>
-            </span>
+<div id="modul-container">
+
+    <div id="grid-container">
+        <div id="personal-container">
+            <p class="p-title">Személyes Adatok</p>
+            <div id="personal-inner">
+                <label for="in-name">Név</label>
+                <input type="text" id="in-name">
+
+                <label for="in-email">Email</label>
+                <input type="text" id="in-email">
+
+                <label for="in-tel">Név</label>
+                <input type="text" id="in-tel">
+                <hr>
+                <label for="in-name">Választott szakember</label>
+                <select id="in-select">
+                    <option>Nácsa Gábor (férfi)</option>
+                    <option>Kercza Szabolcs (női)</option>
+                </select>
+            </div>
+        </div>
+        <div id="calendar-container">
+            <p class="p-title">Naptár</p>
+            <div id="calendar"></div>
+        </div>
+        <div id="time-container">
+            <p class="p-title">Időpont</p>
+
+            <div id="time-picker"></div>
+
         </div>
     </div>
-    <div class="calendar-body">
-        <div class="calendar-week-day">
-            <div>Sun</div>
-            <div>Mon</div>
-            <div>Tue</div>
-            <div>Wed</div>
-            <div>Thu</div>
-            <div>Fri</div>
-            <div>Sat</div>
-        </div>
-        <div class="calendar-days"></div>
-    </div>
 
-    <div class="month-list"></div>
+    <div id="footer-container">
+        <div class="button-wrapper">
+            <button type="button" id="save-button">Foglalás</button>
+        </div>
+    </div>
 </div>
-<script src="scripts/calendar.js"></script>
 
