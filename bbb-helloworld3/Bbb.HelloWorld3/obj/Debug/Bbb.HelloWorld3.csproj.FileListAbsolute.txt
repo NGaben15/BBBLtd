@@ -1,0 +1,10 @@
+C:\dnn\bin\Bbb.HelloWorld3.dll.config
+C:\dnn\bin\Bbb.HelloWorld3.dll
+C:\dnn\bin\Bbb.HelloWorld3.pdb
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3.csproj.AssemblyReference.cache
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3Bbb.HelloWorld3.App_LocalResources.Settings.resources
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3.csproj.GenerateResource.cache
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3.csproj.CoreCompileInputs.cache
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3.csproj.CopyComplete
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3.dll
+C:\dnn\DesktopModules\bbb-helloworld3\Bbb.HelloWorld3\obj\Debug\Bbb.HelloWorld3.pdb
